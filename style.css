@@ -1,0 +1,156 @@
+
+
+header{
+  background:#77c6cd;
+  padding:20px
+}
+
+nav{
+  display:flex;
+  justify-content:space-around;
+}
+
+nav a {
+  color:white;
+  text-decoration:none;
+  background-color:#f74082;
+  padding:7px;
+  border-radius:10px;
+}
+
+nav a:hover{
+  background:#FFC0CB;
+}
+
+header h1{  
+  color: white;
+  text-align:center;
+  font-size:40px;
+}
+
+img{
+  width:300px;
+  border-radius:20px;
+  margin:10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+main{
+  background-color:#fff4ee;
+}
+
+main h1{
+  margin-left:50px;
+  color: #77c6cd; 
+}
+
+main p{
+  margin-left:30px;
+  color:LimeGreen;
+}
+
+.aksiy{
+  border:5px dashed #f74082;
+  border-radius:20px;
+  margin:20px;
+  background:#77c6cd;
+  padding-left:180px;
+}
+
+.aks{
+  color:#f74082;
+}
+
+.skidka{
+  color:white;
+}
+
+.aksiy div{
+  display:flex;
+}
+
+.tickets{
+  margin-left:50px;
+  height:40px;
+}
+
+.tickets:hover{
+  background:black;
+  color:white;
+}
+
+table{
+  border:3px solid #77c6cd;
+  margin-left:30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.50);
+}
+
+td{
+  border:3px solid #77c6cd;
+  background:#f74082;
+  color:white;
+}
+
+footer{
+  background:#77c6cd;
+  text-align:center;
+  color:white;
+}
+
+.order{
+  padding: 40px;
+  background-color: #f2ece9;
+}
+
+.order h2{
+  text-align: center;
+  color: #eb3349;
+}
+
+.order form{
+  max-width: 600px;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+  border: 2px solid gold;
+  border-radius: 15px;
+  box-shadow: #8e2de2 2px 3px 5px;
+}
+
+.order label{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #8e2de2;
+  font-weight: bold;
+}
+
+.order input,
+.order select,
+.order textarea{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #f45c43;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.order textarea{
+  resize: vertical;
+}
+
+.order button{
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 25px;
+  background-color: #8e2de2;
+  color: white;
+  border: 2px solid gold;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.order button:hover{
+  background-color: #eb3349;
+}
