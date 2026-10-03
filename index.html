@@ -1,0 +1,124 @@
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <html>
+    <header>
+      <br>
+      <h1>AquaClass</h1>   
+      <nav>
+        <a href = "#about">О нас</a>
+        <a href = "#raspisanie">Расписание</a>
+        <a href = "#bilets">Билеты</a>
+        <a href = "#aksiy">Акция</a>
+        <a href = "#kontacts">Контакты</a>
+      </nav>
+      <br>
+      </header>
+    <main>
+      <br>
+      <section class = "about">
+        <h1>AquaClass</h1>
+        <p>AquaClass — современный аквапарк для отдыха всей семьёй. Водные горки, бассейны, зоны для детей и комфортные пространства для отдыха подарят яркие эмоции и отличное настроение.</p>
+      	<img src="assets/aqua2.jpg">
+      	<img src="assets/aqua2.jpg">
+      	<img src="assets/aqua1.jpg">
+        <h1>Развлечения и услуги</h1>
+        <p>1.Водные горки — скоростные спуски, извилистые трассы и семейные аттракционы.<br>
+        2.Волновой бассейн — искусственные волны и атмосфера морского отдыха.<br>
+        3.Детская зона — неглубокие бассейны, мини-горки, фонтаны и игровые площадки.<br>
+        4.Зона отдыха — тёплые бассейны, гидромассаж и шезлонги.<br>
+        5.Кафе — напитки, закуски и блюда для всей семьи.<br>
+        6.Аренда полотенец и шкафчиков — всё необходимое для комфортного посещения.<br>
+		7.Раздевалки и душевые — удобные зоны для подготовки и отдыха после водных развлечений.<br>
+		8.Праздники и дни рождения — возможность организовать яркое мероприятие в аквапарке.<br>
+        </p>
+      </section>
+      <section class = "raspisanie">
+        <h1>Расписание</h1>
+        <table>
+          <tr>
+            <td><b>День недели</b></td>
+            <td><b>Время работы</b></td>
+          </tr>
+          <tr>
+            <td>Понедельник</td>
+            <td>11:00-18:00</td>
+          </tr>
+          <tr>
+            <td>Вторник</td>
+            <td>11:00-18:00</td>
+          </tr>
+          <tr>
+            <td>Среда</td>
+            <td>11:00-18:00</td>
+          </tr>
+          <tr>
+            <td>Четверг</td>
+            <td>11:00-18:00</td>
+          </tr>
+          <tr>
+            <td>Пятница</td>
+            <td>11:00-18:00</td>
+          </tr>
+          <tr>
+            <td>Суббота</td>
+            <td>12:00-20:00</td>
+          </tr>
+          <tr>
+            <td>Воскресенье</td>
+            <td>12:00-20:00</td>
+          </tr>
+        </table>  
+      </section>
+      <section class = "bilets">
+        <section class="order" id="order">
+  <h2>Купить билеты</h2>
+
+  <form>
+    <label for="name">Имя заказчика:</label>
+    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+    <label for="contact">Телефон или Email:</label>
+    <input type="text" id="contact" name="contact" placeholder="Телефон или email" required>
+
+    <label for="date">Дата мероприятия:(если есть)</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="type">Тип мероприятия:(если есть)</label>
+    <select id="type" name="type">
+      <option value="concert">День рождения(детский)</option>
+      <option value="festival">День рождения(взрослый)</option>
+      <option value="corporate">Корпоратив</option>
+      <option value="party">Тематическая вечеринка</option>
+      <option value="other">Другое</option>
+    </select>
+
+    <button class="btn" type="submit">Отправить заявку</button>
+    <p class = "message"></p>
+  </form>
+</section>
+      </section>
+      <section class = "aksiy">
+        <h1 class="aks">Акция в честь дня рождения</h1>
+        <div><p class="skidka">Скидка 50% на посещение в день рождения.</p><button class = "tickets">Купить билеты </button></div>
+      </section>
+      <section class = "kontacts">
+        <h1>Контакты</h1>
+        <p><b>Адрес:</b> бул.Культуры, 43<br>
+          <b>Телефон:</b> +7 (999) 213-32-43<br>
+          <b>Email:</b> aquaclass@mail.ru<br>
+          <b>Расписание:</b><br>
+        ПН-ПТ 11:00-18:00<br>
+        СБ-ВС 12:00-20:00</p>
+      </section>
+    </main>
+    <footer>
+      <br>
+      <h1>AquaClass<br>+7 (999) 213-32-43 <br>© 2026 AquaClass</h1>
+      <br>
+    </footer>
+  </html>
+</body>
